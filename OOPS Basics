@@ -1,0 +1,28 @@
+Object-Oriented Programming:
+-object in Java is the physical as well as a logical entity, whereas, a class in Java is a logical entity only.
+-The new keyword is used to allocate memory at runtime. 
+Object:
+-All objects get memory in Heap memory area
+-means a real-world entity
+-it has state and behavior.
+-instance of a class
+-ways to create objects: By reference variable(  Student s1=new Student();  ), By method and By constructor
+Class:
+-Collection of objects.
+
+#Constructor:
+-It is called when an instance of the class is created.
+-At the time of calling constructor, memory for the object is allocated in the memory.
+-Every time an object is created using the new() keyword, at least one constructor is called.
+-There are two types of constructors in Java: no-arg constructor, and parameterized constructor.
+-Its name must be the same as its class name
+-It must have no explicit return type
+-It cannot be abstract, static, final, and synchronized.
+-There are many ways to copy the values of one object into another in Java. They are:
+#Copy Constructor
+Ways to create copy constructor:
+-By constructor
+-By assigning the values of one object into another
+-By clone() method of Object class
+---------------------------------------------------------------------------------------------------------
+
