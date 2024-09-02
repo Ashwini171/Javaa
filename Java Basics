@@ -1,0 +1,59 @@
+Types of Variables :
+1.local variable
+2.instance variable
+3.static variable
+
+Local variables: 
+-declared inside the body of the method 
+-Local var can not be static.
+Instance variable:
+-declare inside the class but outside the method.
+-not declare as static.
+-instance specific so that it can not be shared with other instanaces.
+Static varibale:
+-create single copy and shared among the all.
+-use to declare common things.
+
+---------------------------------------------------------------
+Data Types:
+1. primitive :boolean, char, byte, short, int, long, float and double.
+2. Non Primitive: Class, interfaces, arrays.
+---------------------------------------------------------------
+Control Statements:
+1.Decision Making statements
+-if statements
+-switch statement
+2.Loop statements
+-do while loop
+-while loop
+-for loop
+-for-each loop
+3.Jump statements
+-break statement
+-continue statement
+
+#if statement:
+-Simple if statement
+-if-else statement
+-if-else-if ladder
+-Nested if-statement
+
+#Loop statements: used to execute the set of instructions in a repeated order
+#for loop:
+-for(initialization, condition, increment/decrement) {    
+//block of statements    
+}    
+#for each loop:
+-don't need to update the loop variable.
+-for(data_type var : array_name/collection_name){    
+//statements    
+}
+#while loop
+-if we don't know the number of iterations in advance, it is recommended to use a while loop.
+#do while loop:
+-When the number of iteration is not known and we have to execute the loop at least once.
+
+#break : used to break the current flow of the program and transfer the control to the next statement outside a loop or switch statement.
+#continue: doesn't break the loop, whereas, it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
+
+
