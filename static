@@ -1,0 +1,4 @@
+Static Keyword:
+-apply with variables, methods, blocks and nested classes.
+-can be used to refer to the common property of all objects.
+-gets memory only once in the class area at the time of class loading.
